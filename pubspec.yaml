@@ -1,0 +1,29 @@
+name: student_e_portfolio
+description: A responsive student e-portfolio built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  pdfrx: ^2.2.24
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/certificates/24WH1A05A9_simply learn python.pdf
+    - assets/certificates/Codechef- Data Structures.pdf
+    - assets/certificates/CodeChef-Java.pdf
+    - assets/certificates/24WH1A05A9_Macakthon certificate .pdf
+    - assets/certificates/JP Morgan job simulation completion_certificate.pdf
+    - assets/Profile/Photo.jpg
